@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Spectral by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">EDUVOICE</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="generic.html">Class ID</a></li>
+											<li><a href="elements.html">Elements</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>WELCOME TO YOUR TEACHER PAGE</h2>
+								<p>Eduvoice is a simple tool to bridge the gap between teachers and students.</p>
+							</header>
+							<ul class="actions">
+								<li><a href="#three" class="button special">Past Class Questions</a></li>
+								<li><a href="#two" class="button special">Get A New Class Pin</a></li>
+							</ul>
+						</div>
+					</section>
+			
+				<!-- Two -->
+					<section id="two" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>New Class Pin</h2>
+								<p>Here are your classes pins. Each class has a separate class pin so that all the student's questions may be in one place.</p>
+							</header>
+							<ul class="features">
+								<li class="icon fa-paper-plane-o">
+									<button onclick="myFunction()">Class</button>
+									<p id="demo"></p>
+									<script>										
+									function myFunction() {
+										var randNumber = Math.floor(Math.random() * 100000);
+										if (randNumber >= 10000) {
+											document.getElementById("demo").innerHTML = randNumber;		
+										}
+										else {
+											myFunction();
+										}
+									}
+									</script>
+								</li>					
+							</ul>
+						</div>
+					</section>
+					
+<!-- Teacher Questions Page -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Teacher Page</h2>
+								<p>QUESTIONS ASKED BY YOUR STUDENTS</p>
+							</header>
+							<ul class="features">
+								<li class="icon fa-paper-plane-o">
+									<h3>November 14, 2015</h3>
+									<p>How do you draw a parabola?</p>
+								</li>
+								<li class="icon fa-laptop">
+									<h3>November 13, 2015</h3>
+									<p>What is Newton's First Law?</p>
+									<p>What is the Conservation of Mass Law?</p>
+								</li>
+								<li class="icon fa-code">
+									<h3>November 12, 2015</h3>
+									<p>What is a limit?</p>
+									<p>Does the limit exist?</p>
+								</li>
+								<li class="icon fa-headphones">
+									<h3>November 11, 2015</h3>
+									<p>How many legs does a centipede have?</p>
+									<p>Are centipedes a descendant of ants?</p>
+								</li>
+								<li class="icon fa-heart-o">
+									<h3>November 10, 2015</h3>
+									<p>Why is the earth round?</p>
+									<p>Is the earth round?</p>
+								</li>
+								<li class="icon fa-flag-o">
+									<h3>November 9, 2015</h3>
+									<p>Who invented the printing press?</p>
+									<p>How has the invention of the printing press impacted our world?</p>
+								</li>
+							</ul>
+						</div>
+					</section> 
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
